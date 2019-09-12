@@ -32,5 +32,6 @@ We  used  the  FastText  (Bojanowski  et  al.,  2016) implementation to train ou
 
 ## Links to the embeddings
 
-  - FastText-SBC 
-  - SNOMED-SBC
+  - [FastText-SBC, epoch 10](https://drive.google.com/open?id=1TB1XQDnDsPeK4GFkTZDKLYpDmpb35UZ1)
+  - [FastText-SBC, epoch 20](https://drive.google.com/open?id=1oaUEM_9Fg6mZo2JR-xR3q7nk0BlnDaRQ)
+  - [SNOMED-SBC]()
