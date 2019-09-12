@@ -1,7 +1,13 @@
 # Raw text Files
   - Raw biomedical text file SBC (Spanish Biomedical Corpus) - [SBC](https://drive.google.com/open?id=1plaCl9NTsnU27cJhAv8535Zkfl5Zwx4O)
   - Raw biomedical text file SBC post-processing - [SBC-post](https://drive.google.com/open?id=12xlTNR0U2cs_P5VRN4R5_rVbPRpj_8yn)
-  
+
+# Requeriments
+  - [FastText](https://fasttext.cc/): is a library for efficient learning of word representations and sentence classification.
+    - Command: pip install fasttext
+  - [spaCy](https://spacy.io/usage/spacy-101): is a free, open-source library for advanced Natural Language Processing (NLP) in Python.
+    - Command: pip install -U spacy
+
 # Code
   - TextCorpus_Preprocessing: preprocess SBC text file to obtain SBC-post text file. Pre-processing consist in remove puntuactio, lower text, remove, trim and stopwords.
   - Train_FastText: generate word embeddings with FastText implementation.
