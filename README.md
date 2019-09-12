@@ -1,2 +1,2 @@
-# PharmaCoNER
-Word, Sense and Concept Embeddings
+# Embeddings
+This repository contains the word embeddings generated from biomedical Spanish texts corpora.
