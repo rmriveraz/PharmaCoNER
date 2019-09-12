@@ -17,7 +17,7 @@ All corpus data files can be found in the next link: http://temu.bsc.es/mespen/
 
 ## FastText
 
-We  used  the  FastText  (Bojanowski  et  al.,  2016) implementation to train our word embeddings using  the preprocesed Spanish  Biomedical  corpus (FastText-SBC). Moreover, we trained a concept embedding model replacing biomedical concepts  in  the  Spanish  Biomedical  corpus  withtheir unique SNOMED-CT Spanish Edition iden-tifier  (SNOMED-SBC).  We  used  the  PyMedTer-mino library (Lamy et al., 2015) for concept indexing using full-text search and fuzzy search with threshold.
+We  used  the  FastText  [(Bojanowski  et  al.,  2016)](https://aclweb.org/anthology/Q17-1010) implementation to train our word embeddings using  the preprocesed Spanish  Biomedical  corpus (FastText-SBC). Moreover, we trained a concept embedding model replacing biomedical concepts  in  the  Spanish  Biomedical  corpus  withtheir unique SNOMED-CT Spanish Edition iden-tifier  (SNOMED-SBC).  We  used  the  PyMedTer-mino library [(Lamy et al., 2015)](https://www.ncbi.nlm.nih.gov/pubmed/25991291) for concept indexing using full-text search and fuzzy search with threshold.
 
 ## Train Parameters
   - Dimension = 300
